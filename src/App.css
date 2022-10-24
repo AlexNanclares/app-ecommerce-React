@@ -1,0 +1,151 @@
+ @import './Normalize.css';
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 20px 0px 0px;
+}
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container-products{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.child-product{
+    display: flex;
+    padding: 10px;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    margin: 0px 0px 10px 10px;
+    width: 30%;
+}
+
+.image-product{
+    width: 130px;
+    border-radius: 5px;
+}
+
+.info-product{
+    margin-left: 14px
+}
+
+.info-product h3, .info-product p{
+    margin: 0px 0px 5px 0px;
+    color: #656565;
+    font-weight: bold;
+}
+
+.container-components{
+    display: flex;
+}
+
+.child-shopping h3, .child-shopping p{
+    margin: 0px 0px 5px 0px;
+    color: #656565;
+}
+
+.container-shopping{
+    padding: 10px;
+    width: 68%;
+}
+
+.container-shopping h2{
+    color: #656565;
+    font-weight: 500;
+}
+
+.item-shopping{
+    display: flex;;
+}
+
+.child-shopping{
+    width: 70%;
+    padding: 5px 15px 0px 15px;
+}
+
+.child-shopping p{
+    font-weight: 100;
+}
+
+.container-amount{
+    align-self: end;
+}
+
+.container-amount input{
+    width: 70px;
+    height: 30px;
+    border: 3px solid #E8E8E8;
+    border-radius: 5px;
+}
+
+.container-summary{
+    padding: 10px;
+    width: 32%;
+}
+
+.container-summary h2{
+    color: #656565;
+    font-weight: 500;
+}
+
+.child-summary{
+    display: flex;
+    justify-content: space-between;
+}
+
+.child-summary h3, .child-summary h2{
+    margin: 8px 0px 8px 0px;
+    color: #656565;
+}
+
+.child-summary h3{
+    font-weight: 100;
+}
+
+.child-summary h2{
+    font-weight: 400;
+}
+
+.child-summary input{
+    width: 70px;
+    height: 30px;
+    border: 3px solid transparent;
+    border-radius: 5px;
+    text-align: end;
+}
+
+.general-button{
+    background-color: #656565;
+    border-color: transparent;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.general-button:hover{
+    background-color: #8d8d8d;
+}
+
+.general-button:disabled{
+    background-color: #a5a5a5;
+    cursor: auto;
+}
+
+.shopping-button{
+    cursor: auto;
+    padding: 5px;
+}
+
+.shopping-button:hover{
+    background-color: #656565;
+}
+
+.margin-items{
+    margin-right: 5px;
+}
